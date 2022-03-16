@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1200px) {
+    .banner-text {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 64px;
+        left: 0px;
+        background: rgb(164, 174, 191);
+        width: 100%;
+    }
+    .section-head {
+        width: 100%;
+    }
+    .about-title h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .service-card {
+        border: none;
+    }
+    .img-rocket img {
+        position: relative;
+        bottom: 63px;
+        left: 33%;
+        right: 0;
+    }
+    .img-rocket img {
+        width: 200px;
+    }
+    .about-title h1 {
+        font-size: 40px;
+        text-align: left;
+    }
+}
